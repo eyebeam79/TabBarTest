@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32926EA18837D9B0075F23F /* Antivirus.png in Resources */ = {isa = PBXBuildFile; fileRef = B32926E718837D9B0075F23F /* Antivirus.png */; };
+		B32926EB18837D9B0075F23F /* Book of record.png in Resources */ = {isa = PBXBuildFile; fileRef = B32926E818837D9B0075F23F /* Book of record.png */; };
+		B32926EC18837D9B0075F23F /* Bookkeeping.png in Resources */ = {isa = PBXBuildFile; fileRef = B32926E918837D9B0075F23F /* Bookkeeping.png */; };
 		D2982ED5188026C5004E8886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982ED4188026C5004E8886 /* Foundation.framework */; };
 		D2982ED7188026C5004E8886 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982ED6188026C5004E8886 /* CoreGraphics.framework */; };
 		D2982ED9188026C5004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982ED8188026C5004E8886 /* UIKit.framework */; };
@@ -21,6 +24,8 @@
 		D2982EF6188026C5004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982ED8188026C5004E8886 /* UIKit.framework */; };
 		D2982EFE188026C5004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982EFC188026C5004E8886 /* InfoPlist.strings */; };
 		D2982F00188026C5004E8886 /* TabBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982EFF188026C5004E8886 /* TabBarTestTests.m */; };
+		D2982F0E18804A9F004E8886 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982F0D18804A9F004E8886 /* SecondViewController.m */; };
+		D2982F1118804ACC004E8886 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982F1018804ACC004E8886 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B32926E718837D9B0075F23F /* Antivirus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Antivirus.png; sourceTree = "<group>"; };
+		B32926E818837D9B0075F23F /* Book of record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Book of record.png"; sourceTree = "<group>"; };
+		B32926E918837D9B0075F23F /* Bookkeeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookkeeping.png; sourceTree = "<group>"; };
 		D2982ED1188026C5004E8886 /* TabBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2982ED4188026C5004E8886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2982ED6188026C5004E8886 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,10 @@
 		D2982EFB188026C5004E8886 /* TabBarTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982EFD188026C5004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982EFF188026C5004E8886 /* TabBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarTestTests.m; sourceTree = "<group>"; };
+		D2982F0C18804A9F004E8886 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D2982F0D18804A9F004E8886 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D2982F0F18804ACC004E8886 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D2982F1018804ACC004E8886 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,10 @@
 				D2982EEA188026C5004E8886 /* ViewController.m */,
 				D2982EEC188026C5004E8886 /* Images.xcassets */,
 				D2982EDB188026C5004E8886 /* Supporting Files */,
+				D2982F0C18804A9F004E8886 /* SecondViewController.h */,
+				D2982F0D18804A9F004E8886 /* SecondViewController.m */,
+				D2982F0F18804ACC004E8886 /* ThirdViewController.h */,
+				D2982F1018804ACC004E8886 /* ThirdViewController.m */,
 			);
 			path = TabBarTest;
 			sourceTree = "<group>";
@@ -126,6 +142,9 @@
 		D2982EDB188026C5004E8886 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B32926E718837D9B0075F23F /* Antivirus.png */,
+				B32926E818837D9B0075F23F /* Book of record.png */,
+				B32926E918837D9B0075F23F /* Bookkeeping.png */,
 				D2982EDC188026C5004E8886 /* TabBarTest-Info.plist */,
 				D2982EDD188026C5004E8886 /* InfoPlist.strings */,
 				D2982EE0188026C5004E8886 /* main.m */,
@@ -229,6 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2982EED188026C5004E8886 /* Images.xcassets in Resources */,
+				B32926EA18837D9B0075F23F /* Antivirus.png in Resources */,
+				B32926EC18837D9B0075F23F /* Bookkeeping.png in Resources */,
+				B32926EB18837D9B0075F23F /* Book of record.png in Resources */,
 				D2982EDF188026C5004E8886 /* InfoPlist.strings in Resources */,
 				D2982EE8188026C5004E8886 /* Main.storyboard in Resources */,
 			);
@@ -249,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2982F0E18804A9F004E8886 /* SecondViewController.m in Sources */,
+				D2982F1118804ACC004E8886 /* ThirdViewController.m in Sources */,
 				D2982EEB188026C5004E8886 /* ViewController.m in Sources */,
 				D2982EE5188026C5004E8886 /* AppDelegate.m in Sources */,
 				D2982EE1188026C5004E8886 /* main.m in Sources */,
@@ -460,6 +484,7 @@
 				D2982F05188026C5004E8886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2982F06188026C5004E8886 /* Build configuration list for PBXNativeTarget "TabBarTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +493,7 @@
 				D2982F08188026C5004E8886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
